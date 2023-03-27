@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int numero, horas;
-    float  valor, salario;
+    float valor, salario;
     cin >> numero >> horas >> valor;
     salario = horas*valor;
     cout << "NUMBER = " << numero << endl;
