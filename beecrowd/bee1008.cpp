@@ -11,3 +11,25 @@ int main() {
 
     return 0;
 }
+
+/*
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+ 
+int main() {
+ 
+    int func, horas;
+    double valor, sal;
+    
+    cin >> func >> horas >> valor;
+    
+    cout << "NUMBER = " << func << endl;
+    sal = horas * valor;
+    
+    cout << "SALARY = U$ " << fixed << setprecision(2) << sal << endl;
+ 
+    return 0;
+}
+*/

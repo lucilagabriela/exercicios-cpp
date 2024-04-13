@@ -11,3 +11,21 @@ int main() {
 }
 
 // printf("%.xf\n", var);
+
+/* 
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double raio, n = 3.14159, A;
+    cin >> raio;
+    A = n * raio * raio;
+    cout << "A=" << fixed << setprecision(4) << A << endl;
+ 
+    return 0;
+}
+*/

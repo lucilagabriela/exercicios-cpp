@@ -12,3 +12,24 @@ int main() {
 
     return 0;
 }
+
+/*
+#include <iostream>
+#include <iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    string nome;
+    double sal, vendas, total;
+    cin >> nome;
+    cin >> sal >> vendas;
+    
+    total = sal + (vendas*0.15);
+    
+    cout << "TOTAL = R$ " << fixed << setprecision(2) << total << endl;
+    
+    return 0;
+}
+*/

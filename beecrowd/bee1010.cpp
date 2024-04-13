@@ -15,3 +15,23 @@ int main() {
 
     return 0;
 }
+
+/*
+#include <iostream>
+#include <iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    int c1, p1, c2, p2;
+    double valor1, valor2, total;
+    cin >> c1 >> p1 >> valor1;
+    cin >> c2 >> p2 >> valor2;
+    total = (p1*valor1)+(p2*valor2);
+    
+    cout << "VALOR A PAGAR: R$ " << fixed << setprecision(2) << total << endl;
+ 
+    return 0;
+}
+*/
