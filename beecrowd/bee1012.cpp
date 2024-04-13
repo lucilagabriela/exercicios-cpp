@@ -18,3 +18,31 @@ int main() {
 
     return 0;
 }
+
+/*
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    double A, B, C, pi = 3.14159, areaT, areaC, areaTrap, areaQ, areaR;
+    cin >> A >> B >> C;
+    
+    areaT = (A*C)/2;
+    areaC = pi*pow(C, 2);
+    areaTrap = ((A+B)*C)/2;
+    areaQ = pow(B, 2);
+    areaR = A*B;
+    
+    cout << "TRIANGULO: " << fixed << setprecision(3) << areaT << endl;
+    cout << "CIRCULO: " << fixed << setprecision(3) << areaC << endl;
+    cout << "TRAPEZIO: " << fixed << setprecision(3) << areaTrap << endl;
+    cout << "QUADRADO: " << fixed << setprecision(3) << areaQ << endl;
+    cout << "RETANGULO: " << fixed << setprecision(3) << areaR << endl;
+
+    return 0;
+}
+*/
